@@ -66,3 +66,15 @@ p {
     display: inline-block;
     margin: 0;
 }
+
+@media screen and (max-width: 470px) {
+    .component {
+        position: unset;
+        flex: 0 0 50%;
+    }
+
+    small {
+        width: 90px;
+    }
+}
+

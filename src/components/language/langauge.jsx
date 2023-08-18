@@ -8,8 +8,8 @@ export default function Language({ name, articles, text, top }) {
                 <a>
                     <strong>{name}</strong>
                     <small>
-                        <p>{articles}</p>
-                        <span>+ {text}</span>
+                        <p>{articles}+</p><span> </span>
+                        <p>{text}</p>
                     </small>
                 </a>
             </div>

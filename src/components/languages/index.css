@@ -16,3 +16,10 @@ img {
     transform: translate(-50%, -50%);
     user-select: none;
 }
+
+@media screen and (max-width: 470px) {
+    .languages-component {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
