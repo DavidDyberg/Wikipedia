@@ -10,6 +10,3 @@ export const languages = [
     { id: 9, name: 'Italiano', articles: "1 820 000", articleText: 'voci' },
     { id: 10, name: '中文', articles: "1 369 000", articleText: '条目 / 條目' }
 ];
-  
-  
-  
