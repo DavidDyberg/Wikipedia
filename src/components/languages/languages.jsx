@@ -23,7 +23,7 @@ export default function Languages() {
                     />
                 )
             })}
-            
+            <Image src={logo} width={200} height={183} alt="logo" />
         </div>
     )
 }
