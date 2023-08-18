@@ -1,0 +1,14 @@
+header {
+    text-align: center;
+    margin: 20px;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 32px;
+}
+
+.subheading {
+    font-size: 15px;
+    margin-top: -15px;
+}
