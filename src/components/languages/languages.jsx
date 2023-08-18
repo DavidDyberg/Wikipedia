@@ -1,6 +1,8 @@
 import { languages } from "../../languages"
 import Language from "../language/langauge"
 import './index.css'
+import logo from '../../images/Wikipedia-logo.png'
+import { Image } from "../img/image"
 
 export default function Languages() {
     let top = 0;
