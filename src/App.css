@@ -1,0 +1,12 @@
+header {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.subheading {
+    font-size: 15px;
+    margin-top: -15px;
+}
