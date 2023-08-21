@@ -1,0 +1,10 @@
+footer {
+    text-align: center;
+}
+
+hr {
+    clear: both;
+    height: 0;
+    border-bottom: 1px solid #c8ccd1;
+    margin: 0.26rem 1.3rem;
+}
