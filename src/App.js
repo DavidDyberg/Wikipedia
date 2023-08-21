@@ -1,6 +1,6 @@
 import './App.css';
 import Languages from './components/languages/languages';
-import SearchBar from "./components/searchbar/SearchBar";
+import SearchBar from './components/searchbar/SearchBar'
 
 function App() {
   return (
