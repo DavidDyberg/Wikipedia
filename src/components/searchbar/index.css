@@ -30,12 +30,10 @@
     transition: background-color 0.3s ease;
 }
 
-.search-icon .submit-btn {
+.search-icon {
     width: 20px; 
     height: 20px; 
-    fill: #4169e1; 
-    vertical-align: middle;
-    margin-right: 8px;
+    margin-right: 8px; 
 }
 
 .results {
