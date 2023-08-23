@@ -3,9 +3,12 @@ import Language from "../language/langauge"
 import './index.css'
 import logo from '../../images/Wikipedia-logo.png'
 import { Image } from "../img/image"
+import { useState } from "react"
 
 export default function Languages() {
     let top = 0;
+
+    const [language, setLanguage] = useState();
 
     return (
         <div className="languages-component">
@@ -19,7 +22,9 @@ export default function Languages() {
                         name={language.name} 
                         articles={language.articles} 
                         text={language.articleText}
-                        top={top}  
+                        top={top} 
+                        setLanguage={setLanguage}
+                        language={language} 
                     />
                 )
             })}
