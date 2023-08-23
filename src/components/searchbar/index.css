@@ -22,7 +22,7 @@
 .submit-btn {
     outline: none;
     border: none;
-    padding: 8px 16px;
+    padding: 8px 16px 8px 18px;
     border-radius: 4px;
     background-color: #4169e1;
     color: #fff;
@@ -35,6 +35,10 @@
     height: 20px; 
     margin-right: 8px; 
 }
+.search-icon,
+.submit-btn {
+    margin: 0px;
+}
 
 .results {
     max-height: 44vh; 
@@ -42,8 +46,9 @@
     padding: 10px; 
     background-color: #f5f5f5;
     width: 22%;
-    margin-right: 74px;
+    margin-right: 59px;
 }
+
 
 .error {
     text-align: center;
