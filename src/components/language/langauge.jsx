@@ -1,11 +1,10 @@
 import './index.css'
 
-export default function Language({ name, articles, text, top, setLanguage, language }) {
-
-
+export default function Language({ name, articles, text, top, item, onChange }) {
+   
     return (
         <>
-            <div className='component' style={{top: top + '%'}} onClick={() => setLanguage(language)}>
+            <div className='component' style={{top: top + '%'}} onClick={() => onChange(item) }>
                 <a>
                     <strong>{name}</strong>
                     <small>
