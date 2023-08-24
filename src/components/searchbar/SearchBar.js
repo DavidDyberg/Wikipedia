@@ -48,10 +48,12 @@ const SearchBar = ({ language, setLanguage }) => {
     <div className="box">
       <form className="form" onSubmit={handleFormSubmit}>
         <input type="text" className="form-input" name="search" />
-        <Select item={languages} language={language} setLanguage={setLanguage} />
-        <button type="submit" className="submit-btn">
-          <img src={searchIcon} alt="searchIcon" className="search-icon" height={50} width={50}/>
-        </button>
+        <div className="buttons-container">
+          <Select item={languages} language={language} setLanguage={setLanguage} />
+          <button type="submit" className="submit-btn">
+            <img src={searchIcon} alt="searchIcon" className="search-icon" height={50} width={50}/>
+          </button>
+        </div>
       </form>
 
       {loading && <div className="loading"></div>}
