@@ -1,0 +1,17 @@
+.select-languages {
+    border: 0;
+    color: #54595d;
+    height: 25px;
+    outline: none;
+    padding: 4px;
+    text-align: left;
+    width: fit-content;
+}
+
+.select-languages:hover {
+    background-color: #eaecf0;
+    cursor: pointer;
+}
+
+
+

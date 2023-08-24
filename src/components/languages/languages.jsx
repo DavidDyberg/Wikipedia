@@ -3,28 +3,29 @@ import Language from "../language/langauge"
 import './index.css'
 import logo from '../../images/Wikipedia-logo.png'
 import { Image } from "../img/image"
-import { useState } from "react"
 
-export default function Languages() {
+export default function Languages({ setLanguage }) {
     let top = 0;
 
-    const [language, setLanguage] = useState();
+    const handleChange = (item) => {
+        setLanguage(item)
+    }
 
     return (
         <div className="languages-component">
-            {languages.map((language, index) => {
+            {languages.map((item, index) => {
                 if (index >= 2) {
                     top = (Math.floor((index - 2) / 2) + 1) * 20;
                 }
                 return (
                     <Language 
-                        key={language.id} 
-                        name={language.name} 
-                        articles={language.articles} 
-                        text={language.articleText}
+                        key={item.id} 
+                        name={item.name} 
+                        articles={item.articles} 
+                        text={item.articleText}
                         top={top} 
-                        setLanguage={setLanguage}
-                        language={language} 
+                        item={item}
+                        onChange={handleChange}
                     />
                 )
             })}
