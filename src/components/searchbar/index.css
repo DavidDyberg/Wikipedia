@@ -10,6 +10,7 @@
 
 .form {
     display: flex;
+    margin-left: 90px;
 }
 
 .form-input {
