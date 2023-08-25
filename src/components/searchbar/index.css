@@ -15,8 +15,9 @@
 
 .form-input {
     outline: none;
-    padding: 10px 100px;
+    padding: 1px 96px 0px 10px;
     border: 1px solid black;
+    font-size: 25px;
 }
 
 .form-input:focus {
@@ -71,4 +72,15 @@
     animation: spinner 0.6s linear infinite;
     margin: 0 auto;
     margin-top: 4rem;
+}
+@media screen and (max-width: 600px) {
+    .form-input {
+        font-size: small;
+        padding: inherit;
+    }
+
+    .results {
+        width: 32%;
+        margin-top: 0;
+    }
 }
