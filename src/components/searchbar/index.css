@@ -6,6 +6,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    overflow-x: hidden;
 }
 
 .form {
@@ -77,10 +78,11 @@
     .form-input {
         font-size: small;
         padding: inherit;
+        width: 267px;
     }
 
     .results {
-        width: 32%;
+        width: 66%;
         margin-top: 0;
     }
 }
